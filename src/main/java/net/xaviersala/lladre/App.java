@@ -21,7 +21,8 @@ public class App
         LladreDAO dades = new LladreDAOMySQL();
         try {
 			
-        	dades.Connecta("lladres", "root", "ies2010");
+        	// dades.Connecta("lladres", "root", "ies2010");
+        	dades.Connecta("192.168.0.19", "museus", "policia", "museus");
         	List<Denuncia> denuncies = dades.obtenirDenuncies();
         	
         	Set<Visitant> sospitosos = new HashSet<>();
