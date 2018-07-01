@@ -1,0 +1,8 @@
+[package]
+name = "Rust-LladreDeMuseus"
+version = "0.1.0"
+authors = ["Xavier Sala <utrescu@gmail.com>"]
+
+[dependencies]
+mysql = "13.1.0"
+time = "0.1.40"
