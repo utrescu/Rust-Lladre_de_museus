@@ -45,9 +45,18 @@ impl LladreDAO for MyDatabase {
                             ),
                         }
                     })
-                    .collect() // Collect payments so now `QueryResult` is mapped to `Vec<Payment>`
+                    .collect()
             })
-            .unwrap(); // Unwrap `Vec<Payment>`
+            .unwrap();
+
+        // TAMBÉ HO PODRIA RECUPERAR AMB UNA COSA COM:
+        //
+        //         let result = self.connection.query(query, &[]).unwrap().into_iter()
+        //             .map(|row| Denuncia {
+        //                 denuncia_id: row.get("id"),
+        //                 denuncia_nom: row.get("name"),
+        //         }).collect::<Vec<_>>();
+
         result
     }
 
