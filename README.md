@@ -8,11 +8,11 @@ Es va rebre un anònim a l’Ajuntament on hi havia l’amenaça de robar en div
 
 ![Volen robar els museus](imatges/museus0.png)
 
-Però tot i les precaucions i les mesures de seguretat l’amenaça s’ha complert i hi ha hagut robatoris en uns quants dels museus de la ciutat!
+Però tot i les precaucions i les mesures de seguretat, l’amenaça s’ha complert! Hi ha hagut robatoris en uns quants dels museus de la ciutat!
 
 ![Han robat igualment](imatges/museus1.png)
 
-El gran detectiu **Sherlock “Informatic” Holmes** ha vingut a intentar ajudar-nos i ràpidament ha deduït que tots els robatoris han estat fets per la mateixa gent i de deduir que el robatori l’ha fet la mateixa gent.
+El gran detectiu **Sherlock “Informatic” Holmes** ha vingut a intentar ajudar-nos i ràpidament ha deduït que tots els robatoris han estat fets per la mateixa gent i que anaven junts a tots els robatoris.
 
 ![Sherlock "informàtic" Holmes](imatges/museus2.png)
 
