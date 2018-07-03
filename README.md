@@ -1,6 +1,6 @@
 # Aprenent Rust
 
-Aquest és el meu primer programa en Rust. Fins ara no n'havia fet mai cap i per tant segurament hi faig algunes coses que poden ser fetes d'una forma més òptima.
+Aquest és el meu primer programa en Rust que accedeix a bases de dades. Fins ara no n'havia fet mai cap i per tant segurament hi faig algunes coses que poden ser fetes d'una forma més òptima.
 
 ## Compilar
 
