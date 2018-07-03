@@ -28,22 +28,10 @@ He generat diverses bases de dades per fer diferents proves:
 >
 > I una de gegant [Aquí]()
 
-No he fet que el programa accepti paràmetres des de la línia de comandes o sigui que normalment s'haurà d'editar el fitxer main.rs i definir-hi les dades d'accés a la base de dades: **host, base de dades, usuari, contrasenya**
+En aquest cas els paràmetres de la base de dades estan en el fitxer .env que és carregat automàticament al arrancar
 
-```rust
-fn main() {
-    let db = MyDatabase::connecta(
-        String::from("172.99.0.2"),
-        "lladres".to_string(),
-        "root".to_string(),
-        "ies2010".to_string(),
-    ).unwrap();
-    ...
-```
+    DATABASE_URL=mysql://root:ies2010@172.99.0.2/lladres
 
-> NOTA: No hi ha cap diferència entre fer String::From("X") o "X".to_string()
-
-El programa m'ha quedat una mica "Java Style": interfície, objecte d'accés a dades, models, ... Però què hi farem :-)
 
 # Exercici: L’amenaça als museus
 
